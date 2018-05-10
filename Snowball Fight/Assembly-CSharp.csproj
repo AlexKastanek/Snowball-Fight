@@ -57,6 +57,9 @@
      <Compile Include="Assets\Scripts\target.cs" />
      <Compile Include="Assets\Scripts\targetController.cs" />
      <Compile Include="Assets\Scripts\targetSpawner.cs" />
+     <Compile Include="Assets\Scripts\turret.cs" />
+     <Compile Include="Assets\Scripts\turretController.cs" />
+     <Compile Include="Assets\Scripts\turretSpawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>X:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

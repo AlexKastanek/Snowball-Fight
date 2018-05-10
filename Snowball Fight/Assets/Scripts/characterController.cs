@@ -55,6 +55,7 @@ public class characterController : MonoBehaviour {
 
 			snowball.transform.parent = null;
 			snowball.GetComponent<Rigidbody> ().isKinematic = false;
+			snowball.GetComponent<Rigidbody> ().collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
 			snowball.GetComponent<Rigidbody> ().AddForce(head.transform.forward * projAcc + head.transform.right * -30f + head.transform.up * 100f);
 			possessesSnowball = false;
 

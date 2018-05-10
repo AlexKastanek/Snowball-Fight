@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 351819709}
   - component: {fileID: 351819708}
   - component: {fileID: 351819713}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,6 +690,65 @@ MonoBehaviour:
   sensitivityHorizontal: 5
   sensitivityVertical: 3
   smoothing: 2
+--- !u!1 &1373444781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1373444782}
+  - component: {fileID: 1373444784}
+  - component: {fileID: 1373444783}
+  m_Layer: 0
+  m_Name: turretController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373444782
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373444781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1373444783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373444781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c0f40e269c64e41965b1cea92813cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turret: {fileID: 1012123738842636, guid: 7988fdd9724078d4eaffc8d9d591a979, type: 2}
+  turretAmount: 12
+  turretRadius: 15
+--- !u!114 &1373444784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373444781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dfe2ddae569754bb5d4fef0f521133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretSet: []
+  player: {fileID: 351819707}
+  shootIntervalLow: 0.3
+  shootIntervalHigh: 0.6
 --- !u!1 &1457707394
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1985423586084656, guid: 79dcd3a2f1003294a87fef6699ba44d1, type: 2}
-  targetAmount: 16
+  targetAmount: 12
   targetRadius: 15
   targetHeight: 3
 --- !u!114 &1457707397
