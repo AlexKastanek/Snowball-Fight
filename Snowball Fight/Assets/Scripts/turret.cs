@@ -6,9 +6,13 @@ public class turret : MonoBehaviour {
 
 	public GameObject projectile;
 
-	private GameObject turretHead, player;
+	//public Material lightMaterial;
+
+	private GameObject turretHead, player, light;
 
 	public float projAcc = 10f;
+
+	private Material lightMaterial;
 
 	private bool shooting = false, shootingInit = false, timerLoaded = false;
 	private float shootTimer = 0f;
@@ -17,8 +21,16 @@ public class turret : MonoBehaviour {
 	void Start () {
 
 		turretHead = this.gameObject.transform.GetChild (1).gameObject;
+		light = this.gameObject.transform.GetChild (3).gameObject;
 		player = GetComponentInParent<turretController> ().player;
-		
+
+		light.GetComponent<Renderer> ().material = new Material (Shader.Find ("Standard"));
+		lightMaterial = light.GetComponent<Renderer> ().material;
+		lightMaterial.color = Color.green;
+		lightMaterial.EnableKeyword ("_EMISSION");
+		lightMaterial.SetColor ("_EmissionColor", Color.green);
+
+
 	}
 	
 	// Update is called once per frame
@@ -27,6 +39,8 @@ public class turret : MonoBehaviour {
 		if (shootingInit) 
 		{
 			shootingInit = false;
+			lightMaterial.color = Color.yellow;
+			lightMaterial.SetColor ("_EmissionColor", Color.yellow);
 			shootTimer = 0f;
 			timerLoaded = true;
 		}
@@ -34,11 +48,17 @@ public class turret : MonoBehaviour {
 		if (timerLoaded) 
 		{
 			shootTimer += Time.deltaTime;
-			if (shootTimer > 3) 
-			{
+			if (shootTimer > 3) {
 				fireProjectile ();
 				shooting = false;
 				timerLoaded = false;
+				lightMaterial.color = Color.green;
+				lightMaterial.SetColor ("_EmissionColor", Color.green);
+			} 
+			else if (shootTimer > 2) 
+			{
+				lightMaterial.color = Color.red;
+				lightMaterial.SetColor ("_EmissionColor", Color.red);
 			}
 		}
 		

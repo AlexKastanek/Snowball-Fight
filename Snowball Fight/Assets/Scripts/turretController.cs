@@ -34,10 +34,10 @@ public class turretController : MonoBehaviour {
 			
 			//randomly generate turret index from 0 to turretSet.size - 1 and set shooterAssigned to true
 			Debug.Log(turretSet.Count);
-			shooterIndex = Random.Range (1, turretSet.Count);
+			shooterIndex = Random.Range (0, turretSet.Count);
 			while (turretSet[shooterIndex].gameObject.GetComponent<turret>().isShooting()) 
 			{
-				shooterIndex = Random.Range (1, turretSet.Count);
+				shooterIndex = Random.Range (0, turretSet.Count);
 			}
 			shooterAssigned = true;
 			lastShooterIndex = shooterIndex;

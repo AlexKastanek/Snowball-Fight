@@ -24,10 +24,10 @@ public class turretSpawner : MonoBehaviour {
 
 			Vector3 pos = NextCirclePos (center, turretRadius, i, turretAmount);
 			Quaternion rot = Quaternion.FromToRotation (Vector3.forward, center - pos);
-			Debug.Log (i + ": " + rot + ", " + pos);
+			Debug.Log (i + ": " + rot + ", " + pos + ", " + pos.x + "," + pos.z);
 			//rot = Quaternion.Euler(new Vector3(90, rot.y, rot.z));
 			GameObject turretInstance = Instantiate (turret, pos, rot, transform);
-			if (i == turretAmount - 1) 
+			if (i == turretAmount - 1 && (turretAmount % 2) == 0) 
 			{
 				turretInstance.transform.Rotate (new Vector3 (180, 180, 0));
 			}
