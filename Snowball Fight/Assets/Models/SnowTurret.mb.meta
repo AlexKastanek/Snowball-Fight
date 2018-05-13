@@ -4,7 +4,33 @@ timeCreated: 1525928608
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Turret_Base
+    100004: TurretCannon
+    100006: TurretHead
+    100008: TurretNeck
+    400000: //RootNode
+    400002: Turret_Base
+    400004: TurretCannon
+    400006: TurretHead
+    400008: TurretNeck
+    2100000: TurretMainColor
+    2100002: TurretBlack
+    2100004: TurrentAccent1
+    2300000: Turret_Base
+    2300002: TurretCannon
+    2300004: TurretHead
+    2300006: TurretNeck
+    3300000: Turret_Base
+    3300002: TurretCannon
+    3300004: TurretHead
+    3300006: TurretNeck
+    4300000: Turret_Base
+    4300002: TurretCannon
+    4300004: TurretHead
+    4300006: TurretNeck
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1

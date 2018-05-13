@@ -13,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
-  - Pickup Zone
-  - Player
-  - Turret
-  - Snowball
-  - SnowballEnemy
-  - 
-  - 
+  - pickup
+  - player
+  - turret
+  - snowball
+  - snowballEnemy
+  - CanTeleport
+  - hand
   - 
   - 
   - 

@@ -27,4 +27,11 @@ public class levelController : MonoBehaviour {
 		playerScore += 10;
 
 	}
+
+	public void decrementPlayerScore()
+	{
+
+		playerScore -= 10;
+
+	}
 }

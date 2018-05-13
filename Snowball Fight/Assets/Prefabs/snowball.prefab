@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 135337569293782654}
   - component: {fileID: 23173996399837550}
   - component: {fileID: 54841713827505160}
+  - component: {fileID: 114080209466081558}
   m_Layer: 11
   m_Name: snowball
   m_TagString: Untagged
@@ -99,6 +100,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114080209466081558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687888166275296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b260ddf893c029a48b41dbffbe022c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteTimer: 60
 --- !u!135 &135337569293782654
 SphereCollider:
   m_ObjectHideFlags: 1
