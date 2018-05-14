@@ -32,21 +32,21 @@ public class FrostySpawner : MonoBehaviour {
 
         }
 
-        if (maxScoreReached >= 8 * scoreStep)
+        if (maxScoreReached >= 7.5 * scoreStep) //375
         {
             waitTime = 2;
 
-        } else if (maxScoreReached >= 4 * scoreStep)
+        } else if (maxScoreReached >=  4.5 * scoreStep) //225
         {
             waitTime = 4;
 
         }
-        else if (maxScoreReached >= 2 * scoreStep)
+        else if (maxScoreReached >= 2.5 * scoreStep) //125
         {
             waitTime = 6;
 
         }
-        else if (maxScoreReached >= 1 * scoreStep)
+        else if (maxScoreReached >= 1 * scoreStep) //50
         {
             waitTime = 8;
 

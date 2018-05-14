@@ -18,6 +18,8 @@ public class Frosty : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        StartCoroutine(PlaySoundEffect());
+
         lController = FindObjectOfType<levelController>();
 
         GetComponent<NavMeshAgent>().SetDestination(target.position);
