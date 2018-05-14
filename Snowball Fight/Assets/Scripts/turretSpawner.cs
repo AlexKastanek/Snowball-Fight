@@ -18,6 +18,8 @@ public class turretSpawner : MonoBehaviour {
 
 	void Start()
 	{
+        turretAmount = PlayerPrefs.GetInt("NumTurrets", 6);
+
 		Vector3 center = transform.position + new Vector3 (0, -9.75f, 0);
 		for (int i = 0; i < turretAmount; i++) 
 		{

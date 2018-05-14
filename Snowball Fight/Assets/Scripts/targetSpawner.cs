@@ -18,7 +18,9 @@ public class targetSpawner : MonoBehaviour {
 
 	void Start()
 	{
-		Vector3 center = transform.position + new Vector3 (0, -10 + targetHeight, 0);
+        targetAmount = PlayerPrefs.GetInt("NumTurrets", 6);
+
+        Vector3 center = transform.position + new Vector3 (0, -10 + targetHeight, 0);
 		for (int i = 0; i < targetAmount; i++) 
 		{
 

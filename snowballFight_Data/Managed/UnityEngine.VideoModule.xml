@@ -353,7 +353,7 @@ The actual number of audio tracks cannot be known in advance when playing URLs, 
     </member>
     <member name="P:UnityEngine.Video.VideoPlayer.targetCamera">
       <summary>
-        <para>Camera component to draw to when Video.VideoPlayer.renderMode is set to either Video.VideoTarget.CameraFarPlane or Video.VideoTarget.CameraNearPlane.</para>
+        <para>Camera component to draw to when Video.VideoPlayer.renderMode is set to either Video.VideoRenderMode.CameraFarPlane or Video.VideoRenderMode.CameraNearPlane.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.Video.VideoPlayer.targetCamera3DLayout">

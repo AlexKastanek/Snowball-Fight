@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControllerPickMenu : MonoBehaviour {
     private MenuController menuController;
@@ -99,7 +100,7 @@ public class ControllerPickMenu : MonoBehaviour {
             if (pointedButton)
             {
                 pointedButton.GetComponent<MeshRenderer>().material = defaultMaterial;
-                pointedButton = null;
+                //pointedButton = null;
 
             }
 
@@ -124,6 +125,21 @@ public class ControllerPickMenu : MonoBehaviour {
                 } else if (buttonName == "ReturnButton")
                 {
                     menuController.ChangeMenuSet(0);
+
+                } else if (buttonName == "DodgeEasy")
+                {
+                    PlayerPrefs.SetInt("NumTurrets", 3);
+                    SceneManager.LoadScene(1);
+
+                } else if (buttonName == "DodgeMedium")
+                {
+                    PlayerPrefs.SetInt("NumTurrets", 5);
+                    SceneManager.LoadScene(1);
+
+                } else if (buttonName == "DodgeHard")
+                {
+                    PlayerPrefs.SetInt("NumTurrets", 8);
+                    SceneManager.LoadScene(1);
 
                 }
 
