@@ -33,6 +33,12 @@ public class turretSpawner : MonoBehaviour {
 			{
 				turretInstance.transform.Rotate (new Vector3 (180, 180, 0));
 			}
+
+            if (i == turretAmount - 1)
+            {
+                turretInstance.transform.Rotate(new Vector3(0, 0, 180));
+
+            }
 			this.GetComponent<turretController>().turretSet.Add (turretInstance);
 
 		}
