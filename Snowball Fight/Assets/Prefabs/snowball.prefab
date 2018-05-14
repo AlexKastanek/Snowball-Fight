@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114080209466081558}
   m_Layer: 11
   m_Name: snowball
-  m_TagString: Untagged
+  m_TagString: Snowball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,6 +114,7 @@ MonoBehaviour:
   deleteTimer: 60
   deathParticles: {fileID: 1419385127414024, guid: 84c28068db4d6664ba44ab36645c82f3,
     type: 2}
+  isEnemy: 0
 --- !u!135 &135337569293782654
 SphereCollider:
   m_ObjectHideFlags: 1

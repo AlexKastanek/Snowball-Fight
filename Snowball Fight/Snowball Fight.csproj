@@ -240,6 +240,9 @@
     <Compile Include="Assets\Scripts\characterController.cs" />
     <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
     <Compile Include="Assets\Scripts\ControllerPickMenu.cs" />
+    <Compile Include="Assets\Scripts\Frosty.cs" />
+    <Compile Include="Assets\Scripts\FrostyBody.cs" />
+    <Compile Include="Assets\Scripts\FrostySpawner.cs" />
     <Compile Include="Assets\Scripts\levelController.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
@@ -359,6 +362,7 @@
     <None Include="Assets\ICE_sushishop\Shader\Glass.shader" />
     <None Include="Assets\ICE_sushishop\Shader\Ice(break).shader" />
     <None Include="Assets\Materials\ame_iceflats\ame_iceflats.shader" />
+    <None Include="Assets\Materials\ame_snowy\ame_snowy.shader" />
     <None Include="Assets\Scripts\FontFixed.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />

@@ -303,6 +303,7 @@
     <None Include="Assets\ICE_sushishop\Shader\Glass.shader" />
     <None Include="Assets\ICE_sushishop\Shader\Ice(break).shader" />
     <None Include="Assets\Materials\ame_iceflats\ame_iceflats.shader" />
+    <None Include="Assets\Materials\ame_snowy\ame_snowy.shader" />
     <None Include="Assets\Scripts\FontFixed.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
