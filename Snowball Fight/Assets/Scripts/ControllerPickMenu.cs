@@ -85,6 +85,8 @@ public class ControllerPickMenu : MonoBehaviour {
 
                 }
 
+                laserPointer.enabled = true;
+
                 pointingAtButton = false;
                 pointedButton = null;
                 laserPointer.SetPosition(0, transform.position);

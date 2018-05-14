@@ -18,7 +18,7 @@ public class turretSpawner : MonoBehaviour {
 
 	void Start()
 	{
-        turretAmount = PlayerPrefs.GetInt("NumTurrets", 6);
+        turretAmount = PlayerPrefs.GetInt ("NumTurrets", 6);
 
 		Vector3 center = transform.position + new Vector3 (0, -9.75f, 0);
 		for (int i = 0; i < turretAmount; i++) 
@@ -29,16 +29,11 @@ public class turretSpawner : MonoBehaviour {
 			Debug.Log (i + ": " + rot + ", " + pos + ", " + pos.x + "," + pos.z);
 			//rot = Quaternion.Euler(new Vector3(90, rot.y, rot.z));
 			GameObject turretInstance = Instantiate (turret, pos, rot, transform);
-			if (i == turretAmount - 1 && (turretAmount % 2) == 0) 
+			if (i == turretAmount - 1 && (360 % turretAmount) == 0) 
 			{
 				turretInstance.transform.Rotate (new Vector3 (180, 180, 0));
 			}
 
-            if (i == turretAmount - 1)
-            {
-                turretInstance.transform.Rotate(new Vector3(0, 0, 180));
-
-            }
 			this.GetComponent<turretController>().turretSet.Add (turretInstance);
 
 		}
