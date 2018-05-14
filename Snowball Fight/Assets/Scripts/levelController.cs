@@ -34,4 +34,10 @@ public class levelController : MonoBehaviour {
 		playerScore -= 10;
 
 	}
+
+    public int GetScore ()
+    {
+        return playerScore;
+
+    }
 }
