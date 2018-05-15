@@ -140,4 +140,18 @@ public class ControllerGrabObject : MonoBehaviour {
 
 		collidingObject = null;
 	}
+
+    public bool IsThisObjectInHand (GameObject sentObject)
+    {
+        if (sentObject == objectInHand)
+        {
+            return true;
+
+        } else
+        {
+            return false;
+
+        }
+
+    }
 }

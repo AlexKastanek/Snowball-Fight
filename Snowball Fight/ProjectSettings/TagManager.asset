@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Button
+  - SnowballEnemy
+  - Snowball
   layers:
   - Default
   - TransparentFX
@@ -20,7 +23,7 @@ TagManager:
   - snowballEnemy
   - CanTeleport
   - hand
-  - 
+  - Button
   - 
   - 
   - 

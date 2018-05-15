@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114080209466081558}
   m_Layer: 11
   m_Name: snowball
-  m_TagString: Untagged
+  m_TagString: Snowball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3951ad71162dd4e439c0b7e271826dbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,6 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteTimer: 60
+  deathParticles: {fileID: 1419385127414024, guid: 84c28068db4d6664ba44ab36645c82f3,
+    type: 2}
+  isEnemy: 0
 --- !u!135 &135337569293782654
 SphereCollider:
   m_ObjectHideFlags: 1

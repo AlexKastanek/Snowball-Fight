@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 85ef99610e9aeac418c3c86ed7c342d0
+timeCreated: 1526270400
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boom_Box
+    100002: //RootNode
+    100004: button_dock
+    100006: buttons
+    100008: Camera
+    100010: Lamp
+    100012: lattes_
+    100014: plastic_strip_tape_deck
+    100016: plastic_strip_tape_deck_001
+    100018: speaker_case
+    100020: speaker_foam
+    100022: speaker_vent_
+    100024: tape_deck_back
+    100026: tape_deck_window
+    100028: volume_dial
+    100030: volume_nob
+    400000: Boom_Box
+    400002: //RootNode
+    400004: button_dock
+    400006: buttons
+    400008: Camera
+    400010: Lamp
+    400012: lattes_
+    400014: plastic_strip_tape_deck
+    400016: plastic_strip_tape_deck_001
+    400018: speaker_case
+    400020: speaker_foam
+    400022: speaker_vent_
+    400024: tape_deck_back
+    400026: tape_deck_window
+    400028: volume_dial
+    400030: volume_nob
+    2000000: Camera
+    2100000: Material
+    2100002: Material.002
+    2100004: Material.012
+    2100006: Material.011
+    2100008: Material.009
+    2100010: Material.010
+    2100012: Material.008
+    2100014: Material.001
+    2100016: Material.005
+    2100018: Material.007
+    2100020: Material.006
+    2300000: Boom_Box
+    2300002: button_dock
+    2300004: buttons
+    2300006: lattes_
+    2300008: plastic_strip_tape_deck
+    2300010: plastic_strip_tape_deck_001
+    2300012: speaker_case
+    2300014: speaker_foam
+    2300016: speaker_vent_
+    2300018: tape_deck_back
+    2300020: tape_deck_window
+    2300022: volume_dial
+    2300024: volume_nob
+    3300000: Boom_Box
+    3300002: button_dock
+    3300004: buttons
+    3300006: lattes_
+    3300008: plastic_strip_tape_deck
+    3300010: plastic_strip_tape_deck_001
+    3300012: speaker_case
+    3300014: speaker_foam
+    3300016: speaker_vent_
+    3300018: tape_deck_back
+    3300020: tape_deck_window
+    3300022: volume_dial
+    3300024: volume_nob
+    4300000: lattes_
+    4300002: speaker_vent_
+    4300004: plastic_strip_tape_deck_001
+    4300006: plastic_strip_tape_deck
+    4300008: speaker_case
+    4300010: volume_nob
+    4300012: volume_dial
+    4300014: tape_deck_window
+    4300016: tape_deck_back
+    4300018: buttons
+    4300020: button_dock
+    4300022: speaker_foam
+    4300024: Boom_Box
+    9500000: //RootNode
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

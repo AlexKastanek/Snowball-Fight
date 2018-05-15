@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 49fc57ffaacc95949a0ff10932e4548b
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: e438e4c1bf6616f4aa4bb5f51b7069e1
+  - enabled: 1
+    path: Assets/Scenes/Snowmen.unity
+    guid: 20fbbded10d99af46b4b1d045abb874a
