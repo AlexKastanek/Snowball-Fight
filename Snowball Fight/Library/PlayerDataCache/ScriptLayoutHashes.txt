@@ -1,9 +1,10 @@
 WindowsStandalone
 PlayerPath?
-H:/Documents/Unity Projects/Snowball-Fight/snowballFight.exe
+C:/Users/Bryce/Desktop/SnowballFight/snowballFight.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Main.unity
+Assets/Scenes/Snowmen.unity
 SceneListEnd?
 94d66fcc029f3d76d1d23d64b29c0644 Assembly-CSharp.dll:.SteamVR_Ears
 36a7733bb9c78b502e99fac4e1ba5c26 Assembly-CSharp.dll:Valve.VR.InteractionSystem.LinearAnimation
@@ -100,6 +101,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.InputModule
 0777fcfd6f3d8c384423f91b28c82511 Assembly-CSharp.dll:Valve.VR.InteractionSystem.UIElement
+686d6f0df1adb05734f03bdd104393bf Assembly-CSharp.dll:.FrostyBody
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -162,6 +164,7 @@ dea1f50129720480e0f43a3e995ef93b Assembly-CSharp.dll:Valve.VR.InteractionSystem.
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.Interactable
+6c728b52d8fd1c2e4e467773eb2cbe90 Assembly-CSharp.dll:.Frosty
 01630b9e450f9e5d67fcd6e4af099264 Assembly-CSharp.dll:.SteamVR_GazeTracker
 73f9d5be89bfe8b6fe672de9550f1a0c Assembly-CSharp.dll:Valve.VR.InteractionSystem.ItemPackage
 7dc4607ea3c4e1c57f92525553793668 Assembly-CSharp.dll:.SteamVR_Menu
@@ -205,6 +208,7 @@ a69297cb350136754b977bc92d69d22f Assembly-CSharp.dll:Valve.VR.InteractionSystem.
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.ChaperoneInfo
 8a64ae066eb1b878ee878708d1beaee7 Assembly-CSharp.dll:.SteamVR_TestTrackedCamera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.DestroyOnDetachedFromHand
+2b4598f9d8cb42007806e3f6b6679ae5 Assembly-CSharp.dll:.FrostySpawner
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender

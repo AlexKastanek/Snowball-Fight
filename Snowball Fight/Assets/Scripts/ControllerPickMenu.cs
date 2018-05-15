@@ -143,6 +143,10 @@ public class ControllerPickMenu : MonoBehaviour {
                     PlayerPrefs.SetInt("NumTurrets", 8);
                     SceneManager.LoadScene(1);
 
+                } else if (buttonName == "SnowmanPlay")
+                {
+                    SceneManager.LoadScene(2);
+
                 }
 
             }
