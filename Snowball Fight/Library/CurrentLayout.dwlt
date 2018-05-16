@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 709, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 161
+  controlID: 170
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,8 +131,8 @@ MonoBehaviour:
     y: 0
     width: 948
     height: 947
-  m_MinSize: {x: 202, y: 342}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 200, y: 321}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
   controlID: 10
 --- !u!114 &7
@@ -153,8 +153,8 @@ MonoBehaviour:
     y: 0
     width: 948
     height: 420
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
@@ -208,10 +208,10 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 947
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 44
+  controlID: 69
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -416,14 +416,14 @@ MonoBehaviour:
     height: 399
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 244.60904245283447
+  lastFramingTime: 625.7920861330884
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.5253386, y: 1.59, z: -20.191753}
+    m_Target: {x: 1.4988253, y: 0.13647163, z: -10.050135}
     speed: 2
-    m_Value: {x: 2.5253386, y: 1.59, z: -20.191753}
+    m_Value: {x: 1.4988253, y: 0.13647163, z: -10.050135}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -451,13 +451,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.031779718, y: 0.0356799, z: -0.0012473577, w: -0.9988571}
+    m_Target: {x: -0.26960537, y: -0.10979324, z: 0.030839762, w: -0.9561943}
     speed: 2
-    m_Value: {x: -0.031779718, y: 0.0356799, z: -0.0012473577, w: -0.9988571}
+    m_Value: {x: -0.26960537, y: -0.10979324, z: 0.030839762, w: -0.9561943}
   m_Size:
-    m_Target: -0.3284226
+    m_Target: 0.9818117
     speed: 2
-    m_Value: -0.3284226
+    m_Value: 0.9818117
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -28672
+  m_LastSelectedObjectID: -65908
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -575,9 +575,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2070000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f0fbffff00000000
+    m_ExpandedIDs: f47bfcffe47cfcff067ffcff5a7ffcff747ffcffd07ffcff4480fcff9491fcff9692fcffb894fcff0c95fcff2695fcff8295fcfff695fcff3eaefcfff0aefcff32b1fcffa4b1fcffdeb1fcff5ab2fcffceb2fcff68e0ffff8ce8ffff5cf5fffff0fbffff00000000223600007c370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,20 +638,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/ICE_sushishop/Shader
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/ICE_sushishop/Shader
   m_LastFoldersGridSize: 16
   m_LastProjectPath: H:\Documents\Unity Projects\Snowball-Fight\Snowball Fight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 300f0000
-    m_LastClickedID: 3888
-    m_ExpandedIDs: 00000000120a0000a40a0000240b0000e00b00005a0e0000c20f000000ca9a3bffffff7f
+    m_SelectedIDs: 360d0000
+    m_LastClickedID: 3382
+    m_ExpandedIDs: 00000000120a00006e0a0000a40a0000240b0000e00b00005a0e0000c20f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

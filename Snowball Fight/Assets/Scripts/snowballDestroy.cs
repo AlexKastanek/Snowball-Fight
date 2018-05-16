@@ -37,8 +37,6 @@ public class snowballDestroy : MonoBehaviour {
 
             if (!isBeingHeld && !col.gameObject.CompareTag("SnowballEnemy"))
             {
-                transform.GetComponent<AudioSource>().Play();
-
                 GameObject parts = Instantiate(deathParticles, transform.position, transform.rotation);
 
                 Destroy(parts, 5f);
