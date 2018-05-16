@@ -54,8 +54,9 @@ public class ControllerGrabObject : MonoBehaviour {
 			else if (collidingObject && collidingObject.layer == 8) 
 			{
 				snowballInstance = Instantiate (snowball, transform.position + new Vector3(0f, -0.2f, 0.02f), Quaternion.identity);
-				//snowballInstance.gameObject.GetComponent<SphereCollider> ().enabled = false;
-				GrabSnowball ();
+                //snowballInstance.gameObject.GetComponent<SphereCollider> ().enabled = false;
+                transform.GetComponent<AudioSource>().Play();
+                GrabSnowball();
 			}
 
 		}
