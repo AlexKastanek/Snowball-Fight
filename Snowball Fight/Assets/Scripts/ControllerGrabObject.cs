@@ -155,4 +155,18 @@ public class ControllerGrabObject : MonoBehaviour {
         }
 
     }
+
+    public bool AnyObjectInHand ()
+    {
+        if (objectInHand)
+        {
+            return true;
+
+        } else
+        {
+            return false;
+
+        }
+
+    }
 }

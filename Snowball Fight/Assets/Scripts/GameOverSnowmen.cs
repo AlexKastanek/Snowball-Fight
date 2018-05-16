@@ -14,8 +14,9 @@ public class GameOverSnowmen : MonoBehaviour {
         message.text = "You have been overrun by snowmen!\nBut you managed to achieved a score of " + playerScore.ToString();
         if (playerScore > highScore)
         {
-            message.text = "\nCongrats! This is a new high score!";
+            message.text = message.text + "\nCongrats! This is a new high score!";
         }
+        else message.text = message.text + "\nThe high score is " + highScore.ToString();
         PlayerPrefs.SetInt("HighScoreSnowmen", playerScore);
         PlayerPrefs.DeleteKey("Score");
 		

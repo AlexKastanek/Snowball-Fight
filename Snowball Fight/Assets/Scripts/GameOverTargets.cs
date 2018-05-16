@@ -14,8 +14,9 @@ public class GameOverTargets : MonoBehaviour {
         message.text = "Time has run out!\nYou achieved a score of " + playerScore.ToString();
         if (playerScore > highScore)
         {
-            message.text = "\nCongrats! This is a new high score!";
+            message.text = message.text + "\nCongrats! This is a new high score!";
         }
+        else message.text = message.text + "\nThe high score is " + highScore.ToString();
         PlayerPrefs.SetInt("HighScoreTargets", playerScore);
         PlayerPrefs.DeleteKey("Score");
 		

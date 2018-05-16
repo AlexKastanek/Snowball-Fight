@@ -15,6 +15,8 @@ public class ControllerPickMenu : MonoBehaviour {
     public Material redMaterial;
     public Material defaultMaterial;
 
+    private ControllerGrabObject grabber;
+
     private SteamVR_TrackedObject trackedObj;
     private SteamVR_Controller.Device Controller
     {
@@ -29,13 +31,13 @@ public class ControllerPickMenu : MonoBehaviour {
     void Start ()
     {
         menuController = FindObjectOfType<MenuController>();
-
+        grabber = GetComponent<ControllerGrabObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Controller.GetHairTrigger ())
+        if (Controller.GetHairTrigger () && !grabber.AnyObjectInHand ())
         {
             RaycastHit hit;
 
