@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class levelController : MonoBehaviour {
 
@@ -35,9 +36,14 @@ public class levelController : MonoBehaviour {
 
 	}
 
+    public void GameOver()
+    {
+        PlayerPrefs.SetInt("Score", playerScore);
+        SceneManager.LoadScene(3);
+    }
+
     public int GetScore ()
     {
         return playerScore;
-
     }
 }

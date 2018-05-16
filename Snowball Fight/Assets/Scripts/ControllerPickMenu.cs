@@ -147,6 +147,9 @@ public class ControllerPickMenu : MonoBehaviour {
                 {
                     SceneManager.LoadScene(2);
 
+                } else if (buttonName == "MainMenu")
+                {
+                    SceneManager.LoadScene(0);
                 }
 
             }

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 713, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 146
+  controlID: 39
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 147
+  controlID: 40
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,10 +208,10 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 948
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 46
+  controlID: 121
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,8 +230,8 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 427
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -348,8 +348,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -473
-    m_HBaseRangeMax: 473
+    m_HBaseRangeMin: -435.55557
+    m_HBaseRangeMax: 435.55557
     m_VBaseRangeMin: -245
     m_VBaseRangeMax: 245
     m_HAllowExceedBaseRangeMin: 1
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2302444, y: 5.299779, z: -5.3068757}
+    m_Target: {x: -0.05123639, y: 5.013122, z: -5.568348}
     speed: 2
-    m_Value: {x: 1.2302444, y: 5.299779, z: -5.3068757}
+    m_Value: {x: -0.05123639, y: 5.013122, z: -5.568348}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -451,13 +451,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.12500964, y: 0.0731263, z: 0.00935351, w: 0.98940927}
+    m_Target: {x: -0.04764531, y: -0.035665147, z: -0.0015902948, w: 0.9982236}
     speed: 2
-    m_Value: {x: 0.12500964, y: -0.0731263, z: -0.00935351, w: -0.98940927}
+    m_Value: {x: -0.04764543, y: -0.035665236, z: -0.0015902987, w: 0.9982261}
   m_Size:
-    m_Target: 5.756013
+    m_Target: 8.920637
     speed: 2
-    m_Value: 5.756013
+    m_Value: 8.920637
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 0
+  m_LastSelectedObjectID: 14828
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -575,9 +575,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66400000
-    m_LastClickedID: 16486
-    m_ExpandedIDs: d0aeffff2cd1ffff000000005c400000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: e430faff1435faff2c98fbff12b3fbffaeb7fbff7cbbfbff9e86ffffa086ffffc49afffff4afffff10c6ffffbcc9ffff7eccffff8edbffffbafbffff00000000de370000de3800005e390000ec39000046410000ee410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,7 +596,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - Main
+  - GameOverSnowmen
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -638,20 +638,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: X:\School\CS 491 - VR\Project\Snowball-Fight\Snowball Fight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c63d0000
-    m_LastClickedID: 15814
-    m_ExpandedIDs: 0000000072390000fa3900006e3a0000183b0000163d00004e3e000000ca9a3bffffff7f
+    m_SelectedIDs: 722b0000
+    m_LastClickedID: 11122
+    m_ExpandedIDs: 00000000602a0000f22a0000722b00002e2c0000802e0000e82f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,7 +679,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072390000fa3900006e3a0000183b0000163d00004e3e0000
+    m_ExpandedIDs: 00000000602a0000f22a0000722b00002e2c0000802e0000e82f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,18 +710,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 3a1d00006c220000c0adf4ff64220000102200001e33000022220000fc21000012a2fdff1e220000ae230000b223000014220000f221000006d4ffff08220000242200007a2400001824000060380000da2700001e280000342800009427000024290000feb1feff424cfeffb222f6ffb62b00000a2b0000ac2b00000cc0fcff762d00004874f7fffe2b00001e2b000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FrostySpawner
+      m_OriginalName: FrostySpawner
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 2228
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:

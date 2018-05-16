@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\Frosty.cs" />
     <Compile Include="Assets\Scripts\FrostyBody.cs" />
     <Compile Include="Assets\Scripts\FrostySpawner.cs" />
+    <Compile Include="Assets\Scripts\GameOverSnowmen.cs" />
+    <Compile Include="Assets\Scripts\GameOverTargets.cs" />
     <Compile Include="Assets\Scripts\levelController.cs" />
     <Compile Include="Assets\Scripts\levelTimer.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
@@ -200,11 +202,11 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>X:/School/CS 491 - VR/Project/Snowball-Fight/Snowball Fight/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>X:/School/CS 491 - VR/Project/Snowball-Fight/Snowball Fight/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>X:/School/CS 491 - VR/Project/Snowball-Fight/Snowball Fight/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>X:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

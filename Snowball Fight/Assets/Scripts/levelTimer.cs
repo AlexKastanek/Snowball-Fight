@@ -33,7 +33,7 @@ public class levelTimer : MonoBehaviour {
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            //game over
+            gameObject.GetComponent<levelController>().GameOver();
         }
 		
 	}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FrostySpawner : MonoBehaviour {
     public GameObject frostyObject;
@@ -65,6 +66,8 @@ public class FrostySpawner : MonoBehaviour {
             }
 
             //Gameover stuff here
+            PlayerPrefs.SetInt("Score", maxScoreReached);
+            SceneManager.LoadScene(4);
 
         }
 
